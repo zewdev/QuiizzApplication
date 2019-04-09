@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultatActivity">
+
+    <TextView
+        android:id="@+id/Score_finale"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:text="Votre score finale est :"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="96dp"
+        android:layout_height="46dp"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="32dp" />
+
+    <com.emredavarci.circleprogressbar.CircleProgressBar
+        android:id="@+id/circle"
+        android:layout_width="202dp"
+        android:layout_height="213dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/bPlayAgain"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="93dp"
+        android:text="Play Again" />
+
+    <Button
+        android:id="@+id/bLocalisation"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:text="Locate me " />
+
+
+</RelativeLayout>
